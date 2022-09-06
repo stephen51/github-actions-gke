@@ -10,4 +10,9 @@ public class TestController {
     public String welcome(){
         return "welcome to spring boot";
     }
+
+    @GetMapping("/")
+    public String test(){
+        return "App is Up and Running";
+    }
 }
